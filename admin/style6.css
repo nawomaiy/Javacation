@@ -1,0 +1,229 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+  
+  .tempat_wisata {
+    position: relative;
+    width: 1280px;
+    height: 864px;
+  
+  }
+  
+  .logo {
+    position: absolute;
+    width: 1639px;
+    height: 73px;
+    left: 0px;
+    top: 0px;
+    background: #668FBE;
+  }
+  
+  .logo a {
+    position: absolute;
+    width: 168px;
+    height: 43px;
+    left: 26px;
+    top: 13px;
+  
+    text-decoration: none;
+    font-family: 'Prata';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 43px;
+  
+    color: #FFFFFF;
+  }
+  
+  body {
+    position: relative;
+    width: 1280px;
+    height: 832px;
+  
+    /* backgorund */
+  
+    background: #C9D7E4;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin-top: 73px;
+    padding: 0;
+    width: 20%;
+    background-color: #9FBAD3;
+    position: absolute;
+    height: 3000px;
+    overflow: auto;
+  }
+  
+  li a {
+    margin-top: 20px;
+    display: block;
+    color: #FFFFFF;
+    padding: 8px 16px;
+    text-decoration: none;
+    font-family: 'Andika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #668FBE;
+    color: white;
+  }
+  
+  h3{
+    position: absolute;
+    width: 393px;
+    height: 48px;
+    left: 368px;
+    top: 149px;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    color: #555454;
+  /* identical to box height */
+  
+  
+  color: #555454;
+  }
+  
+  .table-tempatwisata{
+    position: relative;
+    width: 1000px;
+    height: 2643px;
+    left: 292px;
+    top: 240px;
+    padding-left: 20px;
+    background: #FFFFFF;
+  }
+  
+  .table-tempatwisata p{
+    position: relative;
+    width: 400px;
+    height: 42px;
+    left: 45px;
+    top: 40px;
+    font-family: 'Lato',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 24px;
+    padding-bottom: 40px;
+    text-decoration-line: underline;
+    color: #2BB449;
+  }
+
+  .table-tempatwisata p a{
+    color: #2BB449;
+    }
+
+  .edit{
+    text-decoration: none;
+    color: #668FBE;
+    }
+    .delete{
+    text-decoration: none;
+    color: #FF0000;
+    }
+
+    .table-tour{
+      position: relative;
+      display: flex;
+      /* width: 1000px;
+      height: 410px; */
+
+      flex-direction: column;
+      left: 300px;
+      top: 240px;
+      padding-left: 20px;
+      padding-bottom: 20px;
+      padding-right: 20px;
+  
+      background: #FFFFFF;
+    }
+    
+    .table-tour p{
+      position: relative;
+      width: 400px;
+      height: 42px;
+      left: 45px;
+      top: 40px;
+      font-family: 'Lato',sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 17px;
+      line-height: 24px;
+      padding-bottom: 40px;
+      text-decoration-line: underline;
+      color: #2BB449;
+    }
+  
+    .table-tour p a{
+      color: #2BB449;
+      }
+
+      .table-tourguide{
+        position: relative;
+        width: 360px;
+        height: 410px;
+        left: 400px;
+        top: 240px;
+        padding-left: 20px;
+    
+        background: #FFFFFF;
+      }
+      
+      .table-tourguide p{
+        position: relative;
+        width: 400px;
+        height: 42px;
+        left: 45px;
+        top: 40px;
+        font-family: 'Lato',sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 24px;
+        padding-bottom: 40px;
+        text-decoration-line: underline;
+        color: #2BB449;
+      }
+    
+      .table-tourguide p a{
+        color: #2BB449;
+        }
+
+        .table-transaksi{
+          position: relative;
+          width: 1000px;
+          height: 410px;
+          left: 300px;
+          top: 240px;
+          padding-left: 20px;
+      
+          background: #FFFFFF;
+        }
+        
+        .table-transaksi p{
+          position: relative;
+          width: 400px;
+          height: 42px;
+          left: 45px;
+          top: 40px;
+          font-family: 'Lato',sans-serif;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 17px;
+          line-height: 24px;
+          padding-bottom: 40px;
+          text-decoration-line: underline;
+          color: #2BB449;
+        }
+      
+        .table-transaksi p a{
+          color: #2BB449;
+          }

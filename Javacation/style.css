@@ -1,0 +1,148 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+.wrapper{
+    position: relative;
+width: 1280px;
+height: 864px;
+
+}
+
+.logo{
+    position: absolute;
+    width: 1350px;
+    height: 73px;
+    left: 0px;
+    top: 0px;
+    background: #668FBE;
+}
+
+.logo a{
+  position: absolute;
+  width: 168px;
+  height: 43px;
+  left: 26px;
+  top: 13px;
+  
+  font-family: 'Prata';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 43px;
+  
+  color: #FFFFFF;
+  
+ 
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #668FBE;
+  }
+  
+body{
+  position: absolute;
+  width: 1350px;
+  height: 780px;
+  left: 0px;
+  top: 0px;
+  background: url(image\ 1.png);
+  
+  background-repeat: no-repeat;
+  background-position: initial;
+  background-size: cover  ;
+}
+
+li{
+    float: right;
+    font-size: small;
+  }
+  
+li a{
+    display: inline;
+    color: white;
+    text-align: center;
+    padding: 0px 10px;
+    text-decoration: none;
+    margin-left: 1100px;
+    font-size: small;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+#login:hover{
+    background-color: #3c74b4;
+  }
+
+#login{
+  margin-left: 1200px;
+  font-size: 20px;
+  background-color:  #668FBE;
+  border: 0;
+  font-family: 'Prata';
+  color: white;
+  padding: 10px 20px;
+}
+
+.banner{
+  position: absolute;
+width: 954px;
+height: 50px;
+left: 230px;
+top: 210px;
+
+font-family: 'Lucida Bright';
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+line-height: 50px;
+/* identical to box height, or 78% */
+
+text-decoration-line: underline;
+text-transform: capitalize;
+
+color: #FFFFFF;
+text-shadow: 0px 4px 5px rgba(0, 0, 0, 0.25);
+}
+
+#register{
+  position: absolute;
+  width: 299px;
+  height: 94px;
+  left: 310px;
+  top: 250px;
+  border: 0;
+  border-radius: 15px;
+
+font-family: 'Jost';
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 46px;
+text-decoration-line: underline;
+
+color: #FFFFFF;
+background-color: #668FBE;
+}
+
+h6{
+  position: absolute;
+width: 660px;
+height: 38px;
+left: 110px;
+top: 121px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 38px;
+
+color: #000000;
+
+}
+

@@ -1,0 +1,377 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: #F5F5F5;
+    display: flex;
+    justify-content: center;
+}
+
+.slide-dua {
+    position: relative;
+}
+
+.login {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.login h1 {
+    position: unset;
+    width: 511px;
+    height: 71px;
+    padding-left: 155px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 77px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+td{
+
+    position: relative;
+    width: 1036px;
+    height: 67px;
+    left: 86px;
+    top: 70px;
+
+    font-family: 'Lucida Bright';
+font-style: normal;
+font-weight: 600;
+font-size: 25px;
+line-height: 50px;
+/* identical to box height, or 156% */
+
+color: #000000;
+
+}
+
+.name{
+    position: relative;
+width: 92px;
+height: 50px;
+left: 86px;
+top: 39px;
+    font-family: 'Lucida Bright';
+font-style: normal;
+font-weight: 600;
+font-size: 25px;
+line-height: 50px;
+}
+
+input {
+    box-sizing: border-box;
+    padding: 30px;
+    position: relative;
+    width: 700px;
+    height: 30px;
+    font-size: medium;
+    /* left: 56px;
+top: 212px; */
+    /* margin-left: 30px; */
+
+    border: 1px solid #000000;
+    background-color: #F5F5F5;
+}
+
+input[type="submit"]{
+    position: relative;
+    width: 420px;
+    height: 45px;
+    left: -2px;
+    top: 35px;
+    padding-left: 170px;
+    padding-top: 8px;
+    border: 0;
+    
+    background: #668FBE;
+    opacity: 75%;
+    border-radius: 15px;
+    font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-size: 23px;
+  line-height: 29px;
+  /* identical to box height */
+  
+  
+  color: #FFFFFF;
+  }
+
+#Done{
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    left: 601px;
+    top: 685px;
+    font-size: 20px;
+    background-color:  #C0D1FB;
+    border: 0;
+    font-family: 'Prata';
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+#Done:hover{
+background: #8697C4;
+}
+
+.beranda{
+    position: relative;
+width: 1350px;
+height: 832px;
+
+background: #EFF2F5;
+}
+
+.logo{
+    position: absolute;
+    width: 1350px;
+    height: 73px;
+    left: 0px;
+    top: 0px;
+    background: #C9D7E4;
+    border-bottom: #000000;
+}
+
+.logo a{
+    position: absolute;
+    width: 168px;
+    height: 43px;
+    left: 26px;
+    top: 13px;
+    
+    font-family: 'Prata';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    text-decoration: none;
+    line-height: 43px;
+    
+    color: #000000;
+  }
+
+img{
+    position: absolute;
+width: 1152px;
+height: 175.83px;
+left: 64px;
+top: 126.88px;
+}
+
+.menu{
+    position: relative;
+    left: 200px;
+    top: 500px;
+}
+
+#stay{
+    position: relative;
+width: 100px;
+height: 87px;
+left: 16px;
+top: -132px;
+
+/* buuton */
+
+background: #DBDBDB;
+border-radius: 10px;
+border: 0;
+
+}
+
+#stay img{
+    position: relative;
+width: 78px;
+height: 66.16px;
+left: 0px;
+top: 7px;
+}
+
+p{
+    position: relative;
+width: 59px;
+height: 30.81px;
+left: 20px;
+top: 27px;
+
+font-family: 'Alice';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 34px;
+
+color: #000000;
+}
+
+#activities{
+    position: relative;
+    width: 100px;
+    height: 87px;
+    left: 150px;
+    top: -132px;
+    
+    /* buuton */
+    
+    background: #DBDBDB;
+    border-radius: 10px;
+    border: 0; 
+}
+
+#activities img{
+    position: relative;
+    width: 78px;
+    height: 66.16px;
+    left: 0px;
+    top: 7px;
+}
+
+#activities p{
+    position: relative;
+    width: 59px;
+    height: 30.81px;
+    left: 0px;
+    top: 27px;
+    
+    font-family: 'Alice';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 34px;
+    
+    color: #000000;
+}
+
+#tour{
+    position: relative;
+    width: 100px;
+    height: 87px;
+    left: 300px;
+    top: -132px;
+    
+    /* buuton */
+    
+    background: #DBDBDB;
+    border-radius: 10px;
+    border: 0;  
+}
+
+#tour img{
+    position: relative;
+    width: 78px;
+    height: 66.16px;
+    left: 0px;
+    top: 7px;
+}
+
+#voucher{
+    position: relative;
+    width: 100px;
+    height: 87px;
+    left: 450px;
+    top: -132px;
+    
+    /* buuton */
+    
+    background: #DBDBDB;
+    border-radius: 10px;
+    border: 0; 
+}
+
+#voucher img{
+    position: relative;
+    width: 78px;
+    height: 66.16px;
+    left: 0px;
+    top: 7px;
+}
+
+#voucher p{
+    position: relative;
+    width: 59px;
+    height: 30.81px;
+    left: 6px;
+    top: 27px;
+    
+    font-family: 'Alice';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 34px;
+    
+    color: #000000;
+}
+
+h2{
+    position: relative;
+width: 511px;
+height: 71px;
+left: 644px;
+top: 60px;
+
+font-family: 'Lato',sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 77px;
+text-transform: capitalize;
+
+color: #000000;
+}
+
+table{
+
+position: relative;
+width: 1142px;
+height: 55px;
+left: -460px;
+top: 212px;
+margin-bottom: 20px;
+}
+
+.login td{
+    padding-bottom: 20px;
+}
+
+label{
+    /* position: absolute; */
+width: 92px;
+height: 50px;
+left: 86px;
+top: 39px;
+
+font-family: 'Lucida Bright';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 50px;
+/* identical to box height, or 156% */
+
+
+color: #000000;
+}
+
+.register h1{
+    position: relative;
+width: 511px;
+height: 171px;
+left: 133px;
+top: 60px;
+
+font-family: 'Lato',sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 77px;
+text-transform: capitalize;
+
+color: #000000;
+
+}

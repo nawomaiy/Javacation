@@ -1,0 +1,167 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: #EFF2F5;
+}
+
+h1 a{
+    position: relative;
+    width: 349px;
+    height: 91px;
+    left: 73px;
+    top: 66px;
+    
+    font-family: 'Prata';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 87px;
+    text-decoration: none;
+    
+    color: #000000;
+}
+
+form{
+    position: relative;
+    top: 138px;
+    left: 155px;
+}
+
+.view img{
+    border-radius: 10px;
+}
+
+td.nama{
+    font-family: 'Lato',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 29px;
+    line-height: 58px;
+    text-transform: capitalize;
+    
+    color: #000000;
+}
+
+td{
+    
+    font-family: 'Monda', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 59px;
+/* identical to box height */
+
+
+color: #000000;
+}
+
+.add{
+    position: relative;
+width: 498px;
+height: 694px;
+left: 710px;
+top: -281px;
+
+background: #FFFFFF;
+border-radius: 10px;
+}
+
+h2{
+    position: relative;
+    width: 158px;
+    height: 29px;
+    left: 37px;
+    top: 42px;
+    font-family: 'Lato',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+}
+
+select{
+    position: relative;
+    width: 423px;
+    height: 42px;
+    left: 37px;
+    top: 65px;
+    text-align: center;
+    background-color: #F1F1F1;
+    border: 0;
+
+    font-family: 'Monda',sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 39px;
+/* identical to box height */
+
+
+color: #6B6767;
+
+}
+
+input{
+    position: relative;
+    width: 423px;
+    height: 29px;
+    left: 37px;
+    top: 101px;
+    text-align: left;
+    background:none;
+    border: 0;
+
+    font-family: 'Lato',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+input#result{
+    position: relative;
+    width: 423px;
+    height: 42px;
+    left: 37px;
+    top: 123px;
+    text-align: center;
+    background-color: #F1F1F1;
+    border: 0;
+
+    font-family: 'Lato',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+button{
+    position: relative;
+width: 389px;
+height: 57px;
+left: 773px;
+    top: -496px;
+
+background: #CFCFCF;
+border-radius: 10px;
+border: 0;
+
+font-family: 'Monda',sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 39px;
+text-decoration: none;
+/* identical to box height */
+
+
+color: #FFFFFF;
+}
+
+button:hover{
+    background: #939393;
+}

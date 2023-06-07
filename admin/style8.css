@@ -1,0 +1,122 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+  
+  
+  .logo {
+    position: absolute;
+    width: 1350px;
+    height: 73px;
+    left: 0px;
+    top: 0px;
+    background: #668FBE;
+  }
+  
+  .logo a {
+    position: absolute;
+    width: 168px;
+    height: 43px;
+    left: 26px;
+    top: 13px;
+  
+    text-decoration: none;
+    font-family: 'Prata';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 43px;
+  
+    color: #FFFFFF;
+  }
+  
+  body {
+    position: relative;
+    width: 1280px;
+    height: 832px;
+  
+    /* backgorund */
+  
+    background: #C9D7E4;
+  }
+  
+  h3{
+    position: absolute;
+  width: 560px;
+  height: 48px;
+  left: 180px;
+  top: 149px;
+  
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  /* identical to box height */
+  
+  
+  color: #555454;
+  }
+
+
+  form{
+    position: relative;
+    width: 828px;
+    height: 430px;
+    left: 264px;
+    top: 240px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    background: white;
+  }
+
+  td{
+    position: relative;
+width: 169px;
+height: 24px;
+left: 3px;
+top: 18px;
+margin-right: 20px;
+
+font-family: 'Lato', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 24px;
+/* identical to box height */
+
+
+color: #000000;
+  }
+  
+  input{
+    box-sizing: border-box;
+
+position: relative;
+width: 550px;
+height: 39px;
+left: 31px;
+top: 3px;
+margin-bottom: 10px;
+font-size: 15px;
+
+border: 1px solid #928E8E;
+  }
+
+  input[type="submit"]{
+    position: relative;
+width: 90px;
+height: 35px;
+left: 500px;
+top: 6px;
+font-family: 'Lato', sans-serif;
+font-size: 17px;
+color: #FFFFFF;
+
+background: #5CC86D;
+border-radius: 5px;
+  }
+
+  
+
+  

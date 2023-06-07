@@ -1,0 +1,173 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.customer {
+  position: relative;
+  width: 1280px;
+  height: 864px;
+
+}
+
+.logo {
+  position: absolute;
+  width: 1736px;
+  height: 73px;
+  left: 0px;
+  top: 0px;
+  background: #668FBE;
+}
+
+.logo a {
+  position: absolute;
+  width: 168px;
+  height: 43px;
+  left: 26px;
+  top: 13px;
+
+  text-decoration: none;
+  font-family: 'Prata';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 43px;
+
+  color: #FFFFFF;
+}
+
+body {
+  position: relative;
+  width: 1280px;
+  height: 832px;
+
+  /* backgorund */
+
+  background: #C9D7E4;
+}
+
+ul {
+  list-style-type: none;
+  margin-top: 73px;
+  padding: 0;
+  width: 20%;
+  background-color: #9FBAD3;
+  position: absolute;
+  height: 300%;
+  overflow: auto;
+}
+
+li a {
+  margin-top: 20px;
+  display: block;
+  color: #FFFFFF;
+  padding: 8px 16px;
+  text-decoration: none;
+  font-family: 'Andika';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+li a:hover:not(.active) {
+  background-color: #668FBE;
+  color: white;
+}
+
+h3{
+  position: absolute;
+width: 300px;
+height: 48px;
+left: 368px;
+top: 149px;
+
+font-family: 'Lato', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+/* identical to box height */
+
+
+color: #555454;
+}
+
+.table{
+  position: relative;
+  display: flex;
+  /* width: 680px;
+  height: 367px; */
+  left: 368px;
+  top: 240px;
+
+  flex-direction: column;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  background: white;
+}
+
+.table p{
+  position: relative;
+  width: 150px;
+  height: 42px;
+  left: 45px;
+  top: 40px;
+  font-family: 'Lato',sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 24px;
+  padding-bottom: 40px;
+  text-decoration-line: underline;
+  color: #2BB449;
+}
+
+.table p a{
+  color: #2BB449;
+}
+
+
+.table-hotel{
+    position: relative;
+    
+    display: flex;
+    /* width: 780px;
+    height: 282px; */
+    left: 368px;
+    top: 240px;
+    
+    flex-direction: column;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    background: #FFFFFF;
+}
+
+.table-hotel p{
+position: relative;
+width: 150px;
+height: 42px;
+left: 45px;
+top: 40px;
+font-family: 'Lato',sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 24px;
+padding-bottom: 40px;
+text-decoration-line: underline;
+color: #2BB449;
+}
+
+.table-hotel p a{
+color: #2BB449;
+}
+
+.edit{
+text-decoration: none;
+color: #668FBE;
+}
+.delete{
+text-decoration: none;
+color: #FF0000;
+}
